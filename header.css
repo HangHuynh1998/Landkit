@@ -1,0 +1,126 @@
+/*==Reset CSS==*/
+* {
+    margin: 10px;
+    padding: 0;
+  }
+.header{
+  font-family: sans-serif;
+  color: #333;
+}
+#headerland{
+    width: 120px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: bold;  
+    float: left;
+    color: #143f9b;
+    margin-top: 10px;
+
+}
+ 
+  #buy{
+    color:white;
+    width: 90px;
+    height: 40px;
+    float: right;
+    background-color: blue;
+    border-radius: 7px;
+    text-align:center;
+}
+
+#menu ul {
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  float: center;
+  margin-top: 30px;
+}
+#menu li {
+  color: #143f9b;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 30px;
+  margin-left: -5px;
+
+}
+#menu a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+.sub-menu li {
+  display: none;
+}
+#menu li {
+  position: relative;
+ }
+ .sub-menu {
+  display: none;
+  position: absolute;
+ }
+ #menu li:hover .sub-menu {
+  display: block;
+ }
+ .block1{
+  width: 600px;
+  height: 400px;
+  background-color:whitesmoke;
+  padding-left: 15px;
+  text-align: left;
+}
+ .block2{
+  width: 500px;
+  height: 500px;
+  background-color:whitesmoke;
+  padding-left: 15px;
+  text-align: left;
+}
+ .block3{
+   width: 200px;
+   height: 250px;
+   background-color:whitesmoke;
+   padding-left: 15px;
+   text-align: left;
+ }
+ .block4{
+  width: 200px;
+  height: 200px;
+  background-color:whitesmoke;
+  padding-left: 15px;
+  text-align: left;
+}
+/* .img1{
+  margin: 0;
+  width: 40%;
+  height: 100%;
+  
+} */
+.text1{
+  margin: 0;
+  width: 25%;
+  height: 100%;
+  float: left;
+  
+
+}
+.text2{
+  margin: 0;
+  width: 25%;
+  height: 100%;
+  float: right;
+  
+}
+.t11{
+  height: 50%;
+}
+.t12{
+  height: 50%;
+}
+.clear{
+    clear: both;
+}
