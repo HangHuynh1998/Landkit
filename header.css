@@ -630,22 +630,12 @@ span {
 }
 .about-center {
   display: flex;
+  padding-bottom: 10%;
 }
 .about-center-left {
   width: 55%;
   padding-right: 12%;
   padding-left: 2%;
-}
-.about-center-right {
-  width: 50%;
-}
-.about-center-left-1 {
-}
-.img15 {
-  max-width: 100%;
-  height: auto;
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
 }
 .about-center-leftleft {
   background-color: white;
@@ -656,6 +646,10 @@ span {
 }
 .about-center-left-2 {
   padding: 7%;
+}
+.about-center-left-24 {
+  margin-top: 27px;
+  /* border-radius: 17px; */
 }
 .about-center-left-211 {
   /* padding: 0%; */
@@ -676,29 +670,26 @@ span {
   border-bottom: #dfe4ea solid 0.1px;
   color: #77879ca3;
 }
-.about-center-left-24 {
-  margin-top: 27px;
-  /* border-radius: 17px; */
-}
 .about-center-left-241 {
   background-color: #42ba96;
   padding-top: 16px;
   padding-bottom: 16px;
   border-radius: 7px;
+  width: 100%;
   color: #ffffff;
 }
 .about-center-left-2411 {
-  padding-left: 31%;
-  padding-right: 5%;
+  /* padding-left: 31%; */
+  /* padding-right: 5%; */
 }
-.sp1 {
-  color: #42ba96;
+.about-center-right {
+  width: 50%;
 }
 .about-center-right-right {
   padding-top: 24%;
 }
 .about-center-right-1 {
-  padding-right: 41%;
+  padding-right: 17%;
 }
 .about-center-right-11 {
   font-size: 30px;
@@ -707,8 +698,8 @@ span {
   font-size: 30px;
   padding-top: 1%;
 }
-.about-center-right-1 {
-  padding-right: 17%;
+.sp1 {
+  color: #42ba96;
 }
 .about-center-right-2 {
   padding-top: 5%;
@@ -719,6 +710,10 @@ span {
   color: #adc5da;
   padding-right: 7%;
 }
+.about-center-right-3 {
+  padding-top: 10%;
+  color: #42ba96;
+}
 .about-center-right-3a {
   display: flex;
 }
@@ -728,6 +723,9 @@ span {
 .about-center-right-32 {
   display: flex;
   margin-left: 27%;
+}
+.icon {
+  padding-right: 10%;
 }
 .about-center-right-3b {
   display: flex;
@@ -740,13 +738,31 @@ span {
   display: flex;
   margin-left: 28.5%;
 }
-.about-center-right-3 {
-  padding-top: 10%;
-  color: #42ba96;
+.img15 {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
-.icon {
-  padding-right: 10%;
+input#name {
+  border: 0;
+  width: 100%;
+  font-size: 15px;
+  border-bottom: #dfe4ea solid 0.1px;
 }
+input#email {
+  border: 0;
+  width: 100%;
+  font-size: 15px;
+  border-bottom: #dfe4ea solid 0.1px;
+}
+input#password {
+  border: 0;
+  width: 100%;
+  font-size: 15px;
+  border-bottom: #dfe4ea solid 0.1px;
+}
+
 i.far.fa-check-circle {
   font-weight: 600;
   /* background-color: #42ba96; */
