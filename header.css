@@ -892,7 +892,9 @@ section.Customer {
   font-size: 19px;
   color: #5f7386de;
 }
-
+.customer-centera {
+  position: relative;
+}
 .customer-center-111 {
   display: flex;
   background-color: white;
@@ -1035,7 +1037,7 @@ i#iconright {
   border-radius: 100%;
   position: absolute;
   top: 170px;
-  left: 0px;
+  left: -18px;
   background-color: #0a4dce;
   z-index: 1;
   cursor: pointer;
@@ -1059,7 +1061,7 @@ i#iconright {
   background-color: #0a4dce;
   z-index: 1;
   bottom: 215px;
-  right: 1px;
+  right: -19px;
   cursor: pointer;
   border: none;
 }

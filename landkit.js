@@ -100,7 +100,6 @@ function checkPosition(newValue) {
   // <div class="item red clone">1</div>
   // ngay khi slide đến clone element cuối ngay lập tức remove transition của slider và dịch chuyển về slide đầu tiên của slider
   // và sau khi dịch chuyển về slide đầu tiên add transition trở lại slider
-  // hình dưới đây sẽ giãi thích vì sao cần remove transition
   if (currentPosition == widthItem) {
     console.log(currentPosition);
     slider.style.transform = "translateX(" + currentPosition + "px)";
@@ -116,6 +115,5 @@ function checkPosition(newValue) {
   // clone element cuối cùng ở đây là:
   // <div class="item yellow clone">3</div>
   // ngay khi slide đến clone element đầu slide ngay lập tức remove transition của slider và dịch chuyển về slide cuối  của slider
-  // và sau khi dịch chuyển về slide cuối add transition trở lại slider
-  // hình dưới đây sẽ giãi thích vì sao cần remove transition
+  // và sau khi dịch chuyển về slide cuối add transition trở lại slidern
 }
